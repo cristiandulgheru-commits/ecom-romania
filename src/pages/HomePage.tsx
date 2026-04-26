@@ -22,7 +22,13 @@ export function HomePage() {
           <p className="text-sm font-medium uppercase tracking-[0.2em] text-[var(--accent)]">
             România · livrare națională
           </p>
-          <h1 className="mt-4 max-w-3xl font-[family-name:var(--font-display)] text-4xl font-semibold leading-[1.1] tracking-tight text-[var(--fg)] md:text-5xl lg:text-6xl">
+          <p
+            className="mt-4 font-[family-name:var(--font-display)] text-3xl font-bold tracking-tight text-[var(--accent)] md:text-4xl"
+            aria-label="Salut Cristian"
+          >
+            Salut, Cristian
+          </p>
+          <h1 className="mt-3 max-w-3xl font-[family-name:var(--font-display)] text-3xl font-semibold leading-[1.15] tracking-tight text-[var(--fg)] md:text-4xl lg:text-5xl">
             Electronice & grădină, cu un design gândit pentru tine.
           </h1>
           <p className="mt-6 max-w-xl text-lg text-[var(--muted)]">
