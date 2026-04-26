@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node'
-import { processOrderPayload } from '../lib/orderHandler'
+import { processOrderPayload } from '../lib/orderHandler.js'
 
 export default async function handler(
   req: VercelRequest,
